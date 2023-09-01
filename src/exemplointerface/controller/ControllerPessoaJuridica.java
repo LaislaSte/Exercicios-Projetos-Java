@@ -4,7 +4,6 @@
  */
 package exemplointerface.controller;
 import exemplointerface.interfaces.CrudPessoaJuridica;
-import exemplointerface.model.bean.PessoaFisica;
 import exemplointerface.model.bean.PessoaJuridica;
 import exemplointerface.model.dao.DaoPessoaJuridica;
 import java.util.List;

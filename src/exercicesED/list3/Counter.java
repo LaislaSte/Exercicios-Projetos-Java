@@ -61,8 +61,8 @@ public class Counter {
     }
 
 // 1)	Apresente todos os números pares entre 1 a 100
-    public List paresBtwn1and100(){
-        List list = new ArrayList<Integer>();
+    public List<Integer> paresBtwn1and100(){
+        List<Integer> list = new ArrayList<Integer>();
         for (int i = 1; i<100; i++ ){
             if (i%2==0){
                 list.add(i);
@@ -80,8 +80,8 @@ public class Counter {
         return result;
     }
     //3)	Calcule e mostre o quadrado dos números entre 40 e 200 dos números inteiros pares.
-    public List squareBtwn40and200(){
-        List lista = new ArrayList<Integer>();
+    public List<Integer> squareBtwn40and200(){
+        List<Integer> lista = new ArrayList<Integer>();
         for (int i=40; i<200; i++){
             if (i%2==0){
                 lista.add(i*i);
@@ -92,7 +92,7 @@ public class Counter {
     //4)	Calcule e mostre a soma dos números pares e quantidade de números ímpares entre 1 e 800.
     public String sumParesCountInpares(){
         int sumPares=0;
-        List countImpares=new ArrayList<Integer>();
+        List<Integer> countImpares=new ArrayList<Integer>();
         for (int i=1; i<800; i++){
             if (i%2==0){
                 sumPares +=i;

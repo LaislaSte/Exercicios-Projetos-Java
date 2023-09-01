@@ -4,7 +4,6 @@
  */
 package exemplointerface;
 
-import exemplointerface.view.ManterPessoaFisica;
 import exemplointerface.view.ManterPessoaJuridica;
 
 /**
